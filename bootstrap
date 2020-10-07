@@ -93,7 +93,7 @@ cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_SYMBOL%%/${COIN_SYMBOL}/g
 cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_WEBSITE%%/${COIN_WEBSITE}/g"                       > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
 cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_GITHUB%%/${COIN_GITHUB}/g"                         > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
 cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_BITCOINTALK%%/${COIN_BITCOINTALK}/g"               > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
-cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_DISCORD%%/${COIN_DISCORD}/g"                       > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
+cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_TELEGRAM%%/${COIN_TELEGRAM}/g"                       > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
 cat ${COIN_TEMPFILE}                   | sed "s/%%COIN_EXPLORER%%/${COIN_EXPLORER}/g"                     > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
 cat ${COIN_TEMPFILE}                   | sed "s/%%BLOCKCHAIN_NAME%%/${COIN_FULL_NAME}/"                   > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
 cat ${COIN_TEMPFILE}                   | sed "s/%%BOOTSTRAP_TIME%%/${COIN_TIMESTAMP}/"                    > ${COIN_TEMPFILE}.tmp; mv ${COIN_TEMPFILE}.tmp ${COIN_TEMPFILE}
